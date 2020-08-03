@@ -85,7 +85,7 @@ char **splitted_string(char *string, char delimiter)
 			}
 			else
 			{
-				strncpy(input_array[i], (ptr+1),arrCounter);
+				strncpy(input_array[i], (ptr+1),(arrCounter-1));
 			}
 			i++;
 			/* We could just add +1 to ptr over here I guess*/
