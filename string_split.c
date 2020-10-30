@@ -4,7 +4,7 @@
 
 /* This function takes a string of arbitrary length
  * and splits it into an array of strings using a delimiter
- * the return value is an array.
+ * the return value is an array of strings
  */
 
 char **splitted_string(char *string, char delimiter)
